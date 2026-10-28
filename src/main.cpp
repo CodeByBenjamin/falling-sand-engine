@@ -4,6 +4,8 @@
 #include <cmath>
 #include "World.h"
 #include "Cell.h"
+#include "Constants.h"
+#include "MaterialRegistry.h"
 
 int main()
 {
@@ -12,17 +14,16 @@ int main()
     float fpsTimer = 0.0f;
     int frameCounter = 0;
 
-    static const unsigned int width = 768u;
-    static const unsigned int height = 432u;
-    const size_t cellSize = 6;
-
     sf::Clock clock;
-    static const float G = 30;
 
-    bool setup = true;
-    World world(width, height, cellSize);
+	MaterialRegistry materialRegistry;
+    if (!materialRegistry.load()) {
+        return -1;
+    }
 
-    auto window = sf::RenderWindow(sf::VideoMode({ width, height }), "Falling sand simulation");
+    World world(cfg::WINDOW_WIDTH, cfg::WINDOW_HEIGHT, 129649, materialRegistry);
+
+    auto window = sf::RenderWindow(sf::VideoMode({ cfg::WINDOW_WIDTH, cfg::WINDOW_HEIGHT }), "Falling sand simulation");
     window.setFramerateLimit(60);
 
     enum simMode
@@ -32,18 +33,20 @@ int main()
     };
 
     simMode mode = Drawing;
+	CellType currentCellType = CellType::Sand;
 
     sf::Vector2i mousePos;
     unsigned short mouseRadius = 3;
 
     sf::Vector2i clickStartPos;
 
-    sf::RectangleShape mousePreview(sf::Vector2f(cellSize, cellSize));
+    sf::RectangleShape mousePreview(sf::Vector2f(cfg::CELL_SIZE, cfg::CELL_SIZE));
     mousePreview.setFillColor(sf::Color(255, 100, 100, 100));
-    mousePreview.setOrigin(sf::Vector2f(cellSize / 2.0f, cellSize / 2.0f));
+    mousePreview.setOrigin(sf::Vector2f(cfg::CELL_SIZE / 2.0f, cfg::CELL_SIZE / 2.0f));
 
     bool isDrawing = false;
     bool addingVelocity = false;
+    bool pause = false;
 
     while (window.isOpen())
     {
@@ -72,7 +75,7 @@ int main()
             {
                 if (scroll->delta > 0)
                 {
-                    mouseRadius = fmin(mouseRadius + 1, 7);
+                    mouseRadius = fmin(mouseRadius + 1, 10);
                 }
                 else if (scroll->delta < 0)
                 {
@@ -116,10 +119,10 @@ int main()
                             static_cast<float>(clickStartPos.y - clickEndPos.y)
                         );
 
-                        sf::Vector2f initialVelocity = throwVector / 8.0f;
+                        sf::Vector2f initialVelocity = throwVector / 4.0f;
 
-                        int gridMouseX = clickStartPos.x / cellSize;
-                        int gridMouseY = clickStartPos.y / cellSize;
+                        int gridMouseX = clickStartPos.x / cfg::CELL_SIZE;
+                        int gridMouseY = clickStartPos.y / cfg::CELL_SIZE;
 
                         for (int dy = -mouseRadius; dy <= mouseRadius; dy++)
                         {
@@ -131,7 +134,7 @@ int main()
                                 if (world.InBounds(cellX, cellY))
                                 {
                                     Cell* cell = world.getCell(cellX, cellY);
-                                    if (cell->getType() != CellType::Empty) {
+                                    if (cell->getType() != CellType::Air) {
                                         world.ApplyInitialVelocity(cell, initialVelocity);
                                     }
                                 }
@@ -145,15 +148,35 @@ int main()
             {
                 switch (key->scancode)
                 {
-                    case sf::Keyboard::Scancode::Num1:
+                case sf::Keyboard::Scancode::Q:
                     isDrawing = false;
                     mode = Drawing;
                     break;
 
-                case sf::Keyboard::Scancode::Num2:
+                case sf::Keyboard::Scancode::W:
                     isDrawing = false;
                     mode = Velocity;
                     break;
+
+				case sf::Keyboard::Scancode::Num1:
+					currentCellType = CellType::Air;
+					break;
+
+				case sf::Keyboard::Scancode::Num2:
+					currentCellType = CellType::Sand;
+					break;
+
+				case sf::Keyboard::Scancode::Num3:
+					currentCellType = CellType::Water;
+					break;
+
+                case sf::Keyboard::Scancode::P:
+					pause = !pause;
+                    break;
+
+				case sf::Keyboard::Scancode::Escape:
+					window.close();
+					break;
 
                 default:
                     break;
@@ -163,8 +186,8 @@ int main()
 
         if (isDrawing)
         {
-            int gridMouseX = mousePos.x / cellSize;
-            int gridMouseY = mousePos.y / cellSize;
+            int gridMouseX = mousePos.x / cfg::CELL_SIZE;
+            int gridMouseY = mousePos.y / cfg::CELL_SIZE;
 
             for (int dy = -mouseRadius; dy <= mouseRadius; dy++)
             {
@@ -176,22 +199,23 @@ int main()
                     if (world.InBounds(cellX, cellY))
                     {
                         Cell* cell = world.getCell(cellX, cellY);
-                        if (cell->getType() == CellType::Empty) {
-                            cell->setType(CellType::Rock);
+                        if (cell->getType() == CellType::Air) {
+                            cell->setType(currentCellType);
                         }
                     }
                 }
             }
         }
-        else
+        
+        if (!addingVelocity)
         {
-            if (!addingVelocity)
+            if (!pause)
             {
-                world.Update(dt, G);
+                world.Update(dt);
             }
         }
 
-        float sideLength = (mouseRadius * 2 + 1) * cellSize;
+        float sideLength = (static_cast<float>(mouseRadius) * 2.0f + 1.0f) * cfg::CELL_SIZE;
 
         mousePreview.setSize(sf::Vector2f(sideLength, sideLength));
 

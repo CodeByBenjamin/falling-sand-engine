@@ -1,0 +1,38 @@
+{
+  "Air": {
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0
+    },
+    "velocityTransfer": 0.0,
+    "bounce": 0.0,
+    "friction": 0.0,
+    "density": 0.0
+  },
+  "Sand": {
+    "color": {
+      "r": 255,
+      "g": 255,
+      "b": 0,
+      "a": 255
+    },
+    "velocityTransfer": 0.15,
+    "bounce": 0.6,
+    "friction": 1.0,
+    "density": 1.4
+  },
+  "Water": {
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 255,
+      "a": 150
+    },
+    "velocityTransfer": 0.6,
+    "bounce": 0.9,
+    "friction": 1.0,
+    "density": 1.0
+  }
+}

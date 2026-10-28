@@ -1,20 +1,15 @@
 {
   "OutputFoldersPerTargetSystem": {
     "Local Machine": [
-      "out\\build\\x64-debug",
-      "out\\install\\x64-debug",
-      "out\\build\\x64-release",
-      "out\\install\\x64-release",
-      "out\\build\\x86-debug",
-      "out\\install\\x86-debug",
-      "out\\build\\x86-release",
-      "out\\install\\x86-release"
+      "out\\build\\x64-Debug",
+      "out\\install\\x64-Debug"
     ]
   },
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\assets",
+    "\\out"
   ],
-  "SelectedNode": "\\src\\Cell.cpp",
+  "SelectedNode": "\\.clang-format",
   "PreviewInSolutionExplorer": false
 }

@@ -1,26 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\C\u002B\u002B projects\\falling-sand-engine\\",
+  "WorkspaceRootPath": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\C\u002B\u002B projects\\falling-sand-engine\\src\\Cell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\Cell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Cell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\C\u002B\u002B projects\\falling-sand-engine\\src\\World.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\World.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\C\u002B\u002B projects\\falling-sand-engine\\src\\Cell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\Cell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Cell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\C\u002B\u002B projects\\falling-sand-engine\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\assets\\Materials.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\Materials.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\World.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\World.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\World.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\World.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\MaterialRegistry.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\MaterialRegistry.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\C\u002B\u002B projects\\falling-sand-engine\\src\\World.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\World.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\Constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\CellProperties.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\CellProperties.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\MaterialRegistry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\MaterialRegistry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\Rng.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Rng.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,13 +62,90 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MaterialRegistry.cpp",
+              "DocumentMoniker": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\MaterialRegistry.cpp",
+              "RelativeDocumentMoniker": "src\\MaterialRegistry.cpp",
+              "ToolTip": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\MaterialRegistry.cpp",
+              "RelativeToolTip": "src\\MaterialRegistry.cpp",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAgwFcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-26T00:19:21.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Materials.json",
+              "DocumentMoniker": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\assets\\Materials.json",
+              "RelativeDocumentMoniker": "assets\\Materials.json",
+              "ToolTip": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\assets\\Materials.json",
+              "RelativeToolTip": "assets\\Materials.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-21T18:22:46.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Rng.h",
+              "DocumentMoniker": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\Rng.h",
+              "RelativeDocumentMoniker": "src\\Rng.h",
+              "ToolTip": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\Rng.h",
+              "RelativeToolTip": "src\\Rng.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-10-21T19:01:41.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\main.cpp",
+              "RelativeDocumentMoniker": "src\\main.cpp",
+              "ToolTip": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\main.cpp",
+              "RelativeToolTip": "src\\main.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAMYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-19T22:22:12.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cell.cpp",
+              "DocumentMoniker": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\Cell.cpp",
+              "RelativeDocumentMoniker": "src\\Cell.cpp",
+              "ToolTip": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\Cell.cpp",
+              "RelativeToolTip": "src\\Cell.cpp",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAF0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-26T12:19:52.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Constants.h",
+              "DocumentMoniker": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\Constants.h",
+              "RelativeDocumentMoniker": "src\\Constants.h",
+              "ToolTip": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\Constants.h",
+              "RelativeToolTip": "src\\Constants.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-10-26T12:46:36.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "World.h",
-              "DocumentMoniker": "C:\\C\u002B\u002B projects\\falling-sand-engine\\src\\World.h",
+              "DocumentMoniker": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\World.h",
               "RelativeDocumentMoniker": "src\\World.h",
-              "ToolTip": "C:\\C\u002B\u002B projects\\falling-sand-engine\\src\\World.h",
+              "ToolTip": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\World.h",
               "RelativeToolTip": "src\\World.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAApwBkAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-10-19T22:23:29.779Z",
               "EditorCaption": ""
@@ -48,54 +153,65 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\C\u002B\u002B projects\\falling-sand-engine\\src\\main.cpp",
-              "RelativeDocumentMoniker": "src\\main.cpp",
-              "ToolTip": "C:\\C\u002B\u002B projects\\falling-sand-engine\\src\\main.cpp",
-              "RelativeToolTip": "src\\main.cpp",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAAAL0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-19T22:22:12.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "World.cpp",
-              "DocumentMoniker": "C:\\C\u002B\u002B projects\\falling-sand-engine\\src\\World.cpp",
+              "DocumentMoniker": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\World.cpp",
               "RelativeDocumentMoniker": "src\\World.cpp",
-              "ToolTip": "C:\\C\u002B\u002B projects\\falling-sand-engine\\src\\World.cpp",
+              "ToolTip": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\World.cpp",
               "RelativeToolTip": "src\\World.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAiwDEAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-10-19T22:22:14.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Cell.h",
-              "DocumentMoniker": "C:\\C\u002B\u002B projects\\falling-sand-engine\\src\\Cell.h",
+              "DocumentMoniker": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\Cell.h",
               "RelativeDocumentMoniker": "src\\Cell.h",
-              "ToolTip": "C:\\C\u002B\u002B projects\\falling-sand-engine\\src\\Cell.h",
+              "ToolTip": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\Cell.h",
               "RelativeToolTip": "src\\Cell.h",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-10-19T22:21:54.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Cell.cpp",
-              "DocumentMoniker": "C:\\C\u002B\u002B projects\\falling-sand-engine\\src\\Cell.cpp",
-              "RelativeDocumentMoniker": "src\\Cell.cpp",
-              "ToolTip": "C:\\C\u002B\u002B projects\\falling-sand-engine\\src\\Cell.cpp",
-              "RelativeToolTip": "src\\Cell.cpp",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAqwA8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-19T22:21:05.046Z",
+              "DocumentIndex": 8,
+              "Title": "CellProperties.h",
+              "DocumentMoniker": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\CellProperties.h",
+              "RelativeDocumentMoniker": "src\\CellProperties.h",
+              "ToolTip": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\CellProperties.h",
+              "RelativeToolTip": "src\\CellProperties.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-10-21T18:21:14.237Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MaterialRegistry.h",
+              "DocumentMoniker": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\MaterialRegistry.h",
+              "RelativeDocumentMoniker": "src\\MaterialRegistry.h",
+              "ToolTip": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\src\\MaterialRegistry.h",
+              "RelativeToolTip": "src\\MaterialRegistry.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-10-26T00:19:17.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "CMakeLists.txt",
+              "ToolTip": "C:\\Users\\benja\\Documents\\GitHub\\falling-sand-engine\\CMakeLists.txt",
+              "RelativeToolTip": "CMakeLists.txt",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-10-26T02:20:10.882Z"
             }
           ]
         }
