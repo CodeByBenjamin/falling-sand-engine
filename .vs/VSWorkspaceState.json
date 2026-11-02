@@ -8,8 +8,8 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\out"
+    "\\src"
   ],
-  "SelectedNode": "\\.clang-format",
+  "SelectedNode": "\\src\\World.cpp",
   "PreviewInSolutionExplorer": false
 }

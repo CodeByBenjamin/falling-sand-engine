@@ -9,7 +9,8 @@
     "velocityTransfer": 0.0,
     "bounce": 0.0,
     "friction": 0.0,
-    "density": 0.0
+    "density": 0.0,
+    "isLiquid": false
   },
   "Sand": {
     "color": {
@@ -21,7 +22,8 @@
     "velocityTransfer": 0.15,
     "bounce": 0.6,
     "friction": 1.0,
-    "density": 1.4
+    "density": 1.4,
+    "isLiquid": false
   },
   "Water": {
     "color": {
@@ -33,6 +35,7 @@
     "velocityTransfer": 0.6,
     "bounce": 0.9,
     "friction": 1.0,
-    "density": 1.0
+    "density": 1.0,
+    "isLiquid": true
   }
 }
